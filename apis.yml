@@ -1,7 +1,18 @@
 aid: neotaste
-name: Neotaste
-description: Neotaste is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: NeoTaste
+description: >-
+  NeoTaste is a restaurant discovery and dining-deals mobile app operated by
+  NeoTaste GmbH (Osnabrück, Germany). Under the tagline "Discover more. Pay
+  less." it surfaces curated local restaurants and exclusive member deals such
+  as 2-for-1 main courses and a free starter with a main, letting diners try
+  new places while saving money and helping restaurants attract new guests. The
+  consumer product ships as native iOS and Android apps and currently operates
+  across Germany, Austria, the Netherlands, and the United Kingdom. NeoTaste is
+  a venture-backed (Series A) company surfaced through the Earlybird portfolio.
+  It exposes no public developer API — its api.neotaste.com backend is a
+  private, authentication-gated service for the first-party mobile apps — so
+  this API Evangelist profile captures company identity, public web properties,
+  and domain-security posture rather than an integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/neotaste/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,67 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://neotaste.com/opengraph-image.jpeg
 tags:
 - Company
+- Restaurants
+- Dining
+- Food and Beverage
+- Deals
+- Discounts
+- Consumer App
+- Discovery
+- Loyalty
+- Local
 apis: []
+common:
+- type: Website
+  url: https://neotaste.com/
+- type: Blog
+  url: https://neotaste.com/blog
+- type: Pricing
+  url: https://neotaste.com/pricing
+- type: Support
+  url: https://neotaste.com/faq
+- type: TermsOfService
+  url: https://neotaste.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://neotaste.com/privacy-policy
+- type: Careers
+  url: https://jobs.ashbyhq.com/neotaste
+- type: LinkedIn
+  url: https://www.linkedin.com/company/neotaste
+- type: Instagram
+  url: https://instagram.com/neotaste.app
+- type: Facebook
+  url: https://www.facebook.com/neotasteapp/
+- type: AppStore
+  url: https://apps.apple.com/de/app/neotaste/id1484512399
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=app.foodisto.foodisto
+- type: DomainSecurity
+  url: security/neotaste-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
